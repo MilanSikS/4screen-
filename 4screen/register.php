@@ -32,7 +32,7 @@ VALUES ('".$_POST['tbUsername']."', '".$_POST['tbName']."','".$_POST['tbPassword
 $add_user= mysql_query($insert);
 
 if (!$insert)
-echo "Greska! <br>Registration failed";
+echo "Error! <br>Registration failed";
 else
 echo "<p>Your account is registered!!! Click <a href=\"index.html\">Login page</a>.</p>";
 
